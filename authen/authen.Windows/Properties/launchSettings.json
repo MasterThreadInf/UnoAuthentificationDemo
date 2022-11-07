@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "authen.Windows": {
+      "commandName": "MsixPackage"
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\nakul\\source\\repos\\UnoAuthentification\\authen\\authen.Skia.Gtk\\authen.Skia.Gtk.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\nakul\\source\\repos\\UnoAuthentification\\authen\\authen.Skia.Gtk\\authen.Skia.Gtk.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nakul\\source\\repos\\UnoAuthentification\\authen\\authen.Skia.Gtk\\authen.Skia.Gtk.csproj",
+        "projectName": "authen.Skia.Gtk",
+        "projectPath": "C:\\Users\\nakul\\source\\repos\\UnoAuthentification\\authen\\authen.Skia.Gtk\\authen.Skia.Gtk.csproj",
+        "packagesPath": "C:\\Users\\nakul\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nakul\\source\\repos\\UnoAuthentification\\authen\\authen.Skia.Gtk\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nakul\\source\\repos\\UnoAuthentification\\NuGet.Config",
+          "C:\\Users\\nakul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "D:\\SoftwareSolutions\\E3.ImportExportBranch\\E3.ImportExport\\bin": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://erl-build01.eas.local:8443/nuget/Erlangen/v3/index.json": {},
+          "https://packages.infragistics.com/nuget/licensed": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "SkiaSharp.Skottie": {
+              "target": "Package",
+              "version": "[2.88.3, )"
+            },
+            "SkiaSharp.Views.Uno.WinUI": {
+              "target": "Package",
+              "version": "[2.88.3, )"
+            },
+            "Uno.UI.Adapter.Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[4.6.19, )"
+            },
+            "Uno.WinUI.Lottie": {
+              "target": "Package",
+              "version": "[4.6.19, )"
+            },
+            "Uno.WinUI.RemoteControl": {
+              "target": "Package",
+              "version": "[4.6.19, )"
+            },
+            "Uno.WinUI.Skia.Gtk": {
+              "target": "Package",
+              "version": "[4.6.19, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+﻿<Page
+    x:Class="authen.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:authen"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <ScrollViewer>
+        <StackPanel VerticalAlignment="Center"
+                    Width="300"
+                    Margin="80,0">
+            <TextBlock Text="Username"
+                       Foreground="#242424"
+                       FontWeight="SemiBold"
+                       FontSize="16"/>
+
+            <TextBox Width="300"
+                     HorizontalAlignment="Left"
+                     PlaceholderText="enter username or email" />
+            <!-- Label -->
+            <TextBlock Text="Password"
+                       Foreground="#242424"
+                       FontWeight="SemiBold"
+                       FontSize="16" />
+
+            <!-- PasswordBox -->
+            <PasswordBox Password="{Binding userPassword}"
+                         Margin="0,12,0,24"
+                         PlaceholderText="e.g abc**1234"/>
+
+            <!-- Send Button -->
+            <Button Content="Log In"
+                    HorizontalAlignment="Center"
+                    Height="40"
+                    Width="300"/>
+        </StackPanel>
+    </ScrollViewer>
+</Page>
