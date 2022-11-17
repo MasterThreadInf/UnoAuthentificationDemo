@@ -1,0 +1,12 @@
+{
+  "solution": {
+    "path": "authen.sln",
+    "projects": [
+      "authen.Mobile\\authen.Mobile.csproj",
+      "authen.Skia.Gtk\\authen.Skia.Gtk.csproj",
+      "authen.UI\\authen.UI.shproj",
+      "authen.Wasm\\authen.Wasm.csproj",
+      "authen\\authen.csproj"
+    ]
+  }
+}

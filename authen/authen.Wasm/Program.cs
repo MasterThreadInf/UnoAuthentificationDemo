@@ -1,17 +1,13 @@
-﻿using Microsoft.UI.Xaml;
-using System;
+namespace authen.Wasm;
 
-namespace authen.Wasm
+public class Program
 {
-    public class Program
-    {
-        private static App _app;
+	private static App? _app;
 
-        static int Main(string[] args)
-        {
-            Microsoft.UI.Xaml.Application.Start(_ => _app = new App());
+	static int Main(string[] args)
+	{
+		Microsoft.UI.Xaml.Application.Start(_ => _app = new App());
 
-            return 0;
-        }
-    }
+		return 0;
+	}
 }

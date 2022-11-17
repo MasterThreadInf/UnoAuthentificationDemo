@@ -16,11 +16,17 @@
     <SourceRoot Include="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)uno.winui.skia.wpf\4.6.19\build\Uno.WinUI.Skia.Wpf.props" Condition="Exists('$(NuGetPackageRoot)uno.winui.skia.wpf\4.6.19\build\Uno.WinUI.Skia.Wpf.props')" />
-    <Import Project="$(NuGetPackageRoot)skiasharp.nativeassets.webassembly\2.88.3\buildTransitive\netstandard1.0\SkiaSharp.NativeAssets.WebAssembly.props" Condition="Exists('$(NuGetPackageRoot)skiasharp.nativeassets.webassembly\2.88.3\buildTransitive\netstandard1.0\SkiaSharp.NativeAssets.WebAssembly.props')" />
+    <Import Project="$(NuGetPackageRoot)uno.winui.skia.wpf\4.4.13\build\Uno.WinUI.Skia.Wpf.props" Condition="Exists('$(NuGetPackageRoot)uno.winui.skia.wpf\4.4.13\build\Uno.WinUI.Skia.Wpf.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets\6.0.1\buildTransitive\netstandard2.0\Microsoft.Extensions.Configuration.UserSecrets.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets\6.0.1\buildTransitive\netstandard2.0\Microsoft.Extensions.Configuration.UserSecrets.props')" />
+    <Import Project="$(NuGetPackageRoot)refit\6.3.2\buildTransitive\netstandard2.0\refit.props" Condition="Exists('$(NuGetPackageRoot)refit\6.3.2\buildTransitive\netstandard2.0\refit.props')" />
+    <Import Project="$(NuGetPackageRoot)uno.extensions.reactive\2.2.0\buildTransitive\Uno.Extensions.Reactive.props" Condition="Exists('$(NuGetPackageRoot)uno.extensions.reactive\2.2.0\buildTransitive\Uno.Extensions.Reactive.props')" />
+    <Import Project="$(NuGetPackageRoot)uno.extensions.logging.winui\2.2.0\buildTransitive\Uno.Extensions.Logging.WinUI.props" Condition="Exists('$(NuGetPackageRoot)uno.extensions.logging.winui\2.2.0\buildTransitive\Uno.Extensions.Logging.WinUI.props')" />
+    <Import Project="$(NuGetPackageRoot)uno.extensions.hosting.winui\2.2.0\buildTransitive\Uno.Extensions.Hosting.WinUI.props" Condition="Exists('$(NuGetPackageRoot)uno.extensions.hosting.winui\2.2.0\buildTransitive\Uno.Extensions.Hosting.WinUI.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgUno_WinUI Condition=" '$(PkgUno_WinUI)' == '' ">C:\Users\nakul\.nuget\packages\uno.winui\4.6.19</PkgUno_WinUI>
-    <PkgUno_WinUI_RemoteControl Condition=" '$(PkgUno_WinUI_RemoteControl)' == '' ">C:\Users\nakul\.nuget\packages\uno.winui.remotecontrol\4.6.19</PkgUno_WinUI_RemoteControl>
+    <PkgUno_XamlMerge_Task Condition=" '$(PkgUno_XamlMerge_Task)' == '' ">C:\Users\nakul\.nuget\packages\uno.xamlmerge.task\1.1.0-dev.12</PkgUno_XamlMerge_Task>
+    <PkgUno_WinUI Condition=" '$(PkgUno_WinUI)' == '' ">C:\Users\nakul\.nuget\packages\uno.winui\4.4.13</PkgUno_WinUI>
+    <PkgUno_WinUI_RemoteControl Condition=" '$(PkgUno_WinUI_RemoteControl)' == '' ">C:\Users\nakul\.nuget\packages\uno.winui.remotecontrol\4.4.13</PkgUno_WinUI_RemoteControl>
+    <PkgUno_Extensions_Reactive Condition=" '$(PkgUno_Extensions_Reactive)' == '' ">C:\Users\nakul\.nuget\packages\uno.extensions.reactive\2.2.0</PkgUno_Extensions_Reactive>
   </PropertyGroup>
 </Project>

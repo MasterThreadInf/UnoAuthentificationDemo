@@ -7,13 +7,15 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "authen.Shared", "authen.Sha
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Platforms", "Platforms", "{B80E9807-EAFD-4AA3-B302-0C41B3268FC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "authen.Wasm", "authen.Wasm\authen.Wasm.csproj", "{8AC12C0D-5778-4771-97DF-397E391F1B89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "authen.Wasm", "authen.Wasm\authen.Wasm.csproj", "{8AC12C0D-5778-4771-97DF-397E391F1B89}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "authen.Mobile", "authen.Mobile\authen.Mobile.csproj", "{2B3529C0-4E72-4DC8-84D3-153F438500D0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "authen.Skia.Gtk", "authen.Skia.Gtk\authen.Skia.Gtk.csproj", "{33E42ED7-55D5-49F6-BA04-791DBB18F198}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "authen.Skia.Wpf", "authen.Skia.Wpf\authen.Skia.Wpf.csproj", "{5BDF6F06-955F-47A9-A2D6-39ED5E33BDE3}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "App1.Shared", "App1\App1.Shared\App1.Shared.shproj", "{1D852F72-ABF8-46CF-9359-86D6895A6BDA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -114,6 +116,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		authen.Shared\authen.Shared.projitems*{6279c845-92f8-4333-ab99-3d213163593c}*SharedItemsImports = 13
-		authen.Shared\authen.Shared.projitems*{8ac12c0d-5778-4771-97df-397e391f1b89}*SharedItemsImports = 5
+		authen.UI\authen.UI.projitems*{8ac12c0d-5778-4771-97df-397e391f1b89}*SharedItemsImports = 5
 	EndGlobalSection
 EndGlobal

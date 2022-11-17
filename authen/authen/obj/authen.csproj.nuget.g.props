@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\nakul\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages;C:\Program Files (x86)\Microsoft\Xamarin\NuGet\;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.3.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\nakul\.nuget\packages\" />
+    <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
+    <SourceRoot Include="C:\Program Files (x86)\Microsoft\Xamarin\NuGet\" />
+    <SourceRoot Include="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\" />
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets\6.0.1\buildTransitive\netstandard2.0\Microsoft.Extensions.Configuration.UserSecrets.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets\6.0.1\buildTransitive\netstandard2.0\Microsoft.Extensions.Configuration.UserSecrets.props')" />
+    <Import Project="$(NuGetPackageRoot)refit\6.3.2\buildTransitive\netstandard2.0\refit.props" Condition="Exists('$(NuGetPackageRoot)refit\6.3.2\buildTransitive\netstandard2.0\refit.props')" />
+    <Import Project="$(NuGetPackageRoot)uno.extensions.reactive\2.2.0\buildTransitive\Uno.Extensions.Reactive.props" Condition="Exists('$(NuGetPackageRoot)uno.extensions.reactive\2.2.0\buildTransitive\Uno.Extensions.Reactive.props')" />
+    <Import Project="$(NuGetPackageRoot)uno.extensions.logging.winui\2.2.0\buildTransitive\Uno.Extensions.Logging.WinUI.props" Condition="Exists('$(NuGetPackageRoot)uno.extensions.logging.winui\2.2.0\buildTransitive\Uno.Extensions.Logging.WinUI.props')" />
+    <Import Project="$(NuGetPackageRoot)uno.extensions.hosting.winui\2.2.0\buildTransitive\Uno.Extensions.Hosting.WinUI.props" Condition="Exists('$(NuGetPackageRoot)uno.extensions.hosting.winui\2.2.0\buildTransitive\Uno.Extensions.Hosting.WinUI.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgUno_XamlMerge_Task Condition=" '$(PkgUno_XamlMerge_Task)' == '' ">C:\Users\nakul\.nuget\packages\uno.xamlmerge.task\1.1.0-dev.12</PkgUno_XamlMerge_Task>
+    <PkgUno_WinUI Condition=" '$(PkgUno_WinUI)' == '' ">C:\Users\nakul\.nuget\packages\uno.winui\4.3.6</PkgUno_WinUI>
+    <PkgUno_Extensions_Reactive Condition=" '$(PkgUno_Extensions_Reactive)' == '' ">C:\Users\nakul\.nuget\packages\uno.extensions.reactive\2.2.0</PkgUno_Extensions_Reactive>
+  </PropertyGroup>
+</Project>
